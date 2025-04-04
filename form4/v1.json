@@ -359,8 +359,34 @@
             }
           ],
           "events": [],
-          "dataQueries": [],
-          "dataSources": [],
+          "dataQueries": [
+            {
+              "id": "5e800ee5-b799-4cbe-a728-b316bf219e2b",
+              "name": "runpy1",
+              "options": {
+                "transformationLanguage": "javascript",
+                "enableTransformation": false
+              },
+              "dataSourceId": "c07106ef-9a61-47cb-9283-1fcb0ffd12f3",
+              "appVersionId": "a2049850-4aa2-43c3-8aca-17a92487afbc",
+              "createdAt": "2025-04-04T10:22:04.804Z",
+              "updatedAt": "2025-04-04T10:22:04.804Z"
+            }
+          ],
+          "dataSources": [
+            {
+              "id": "c07106ef-9a61-47cb-9283-1fcb0ffd12f3",
+              "name": "runpydefault",
+              "kind": "runpy",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "a2049850-4aa2-43c3-8aca-17a92487afbc",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-04-04T10:22:04.706Z",
+              "updatedAt": "2025-04-04T10:22:04.706Z"
+            }
+          ],
           "appVersions": [
             {
               "id": "a2049850-4aa2-43c3-8aca-17a92487afbc",
@@ -418,7 +444,32 @@
               "updatedAt": "2025-03-26T05:23:01.588Z"
             }
           ],
-          "dataSourceOptions": [],
+          "dataSourceOptions": [
+            {
+              "id": "81dcba8c-7875-448e-90fc-f5db332ac128",
+              "dataSourceId": "c07106ef-9a61-47cb-9283-1fcb0ffd12f3",
+              "environmentId": "acfcea77-a505-418c-8093-534ab9d0eb70",
+              "options": null,
+              "createdAt": "2025-04-04T10:22:04.717Z",
+              "updatedAt": "2025-04-04T10:22:04.717Z"
+            },
+            {
+              "id": "63376b33-d3a2-4469-be1a-8b001a3397bd",
+              "dataSourceId": "c07106ef-9a61-47cb-9283-1fcb0ffd12f3",
+              "environmentId": "bfab52fe-8712-4baa-be28-8e724996b4ed",
+              "options": null,
+              "createdAt": "2025-04-04T10:22:04.717Z",
+              "updatedAt": "2025-04-04T10:22:04.717Z"
+            },
+            {
+              "id": "36471a58-0d2c-4834-9c0c-f95577d3357e",
+              "dataSourceId": "c07106ef-9a61-47cb-9283-1fcb0ffd12f3",
+              "environmentId": "e4e1b897-1a06-4b52-8fb4-cfa0fa98709d",
+              "options": null,
+              "createdAt": "2025-04-04T10:22:04.717Z",
+              "updatedAt": "2025-04-04T10:22:04.717Z"
+            }
+          ],
           "schemaDetails": {
             "multiPages": true,
             "multiEnv": true,
